@@ -1,9 +1,8 @@
 ## Material Passport Ontology (MPO) ##
-MPO is a generic ontology that represents the common properties of the material passport of a product or component across applications in the automotive and wind turbine blade industries. It is also known as an ontology for materials and products life-cycle (OntoMPLC) representation. The life cycle is managed via the temporal aspect of the material passport of a product or component.
-The ontology is available [here](https://raw.githubusercontent.com/TheWorldAvatar/ontology/refs/heads/main/MPO.owl).
+MPO is a generic ontology that represents the common properties of the material passport of a product or component across applications in the automotive and wind turbine blade industries. The ontology is available [here](https://raw.githubusercontent.com/TheWorldAvatar/ontology/refs/heads/main/MPO.owl).
 
 ### Documentation
-The HTML documentation (LODE) is available [here](https://theworldavatar.github.io/ontology)
+The HTML documentation (LODE) is available [here](https://theworldavatar.github.io/ontology).
 
 ## Application ##
 MPO can be used to represent material passports of products or components and enable data interoperability across industrial stakeholders, including manufacturers, suppliers, collectors, and recyclers, to calculate the material circularity indicator of a product or component that requires data from multiple parties.

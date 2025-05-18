@@ -1,6 +1,6 @@
 Source,Type,Target,Relation,Domain,Range,Quantifier,Comment,Defined By,Label
 OntoMatPassport,TBox,http://www.theworldavatar.com/kg/ontomatpassport/,https://www.w3.org/2007/05/powder-s#hasIRI,,,,,,
-OntoMatPassport,TBox,1,http://www.w3.org/2002/07/owl#versionInfo,,,,,,
+OntoMatPassport,TBox,1.0.0,http://www.w3.org/2002/07/owl#versionInfo,,,,,,
 OntoMatPassport,TBox,The Material Passport Ontology (MPO) is an ontology developed for representing material passports of products and components. It is also known as OntoMatPassport.,http://www.w3.org/2000/01/rdf-schema#comment,,,,,,
 OntoMatPassport,TBox,,http://www.w3.org/2002/07/owl#imports,,,,,,
 Product,Class,,,,,,An artefact manufactured in an industrial setting to meet the demands of consumers and usually consists of multiple parts.,http://www.theworldavatar.com/kg/ontomatpassport,Product
@@ -75,7 +75,7 @@ CircularityProperty,Class,http://www.ontology-of-units-of-measure.org/resource/o
 EnvironmentalProperty,Class,http://www.ontology-of-units-of-measure.org/resource/om-2/Quantity,IS-A,,,,A property that expresses the environmental aspect of an object.,http://www.theworldavatar.com/kg/ontomatpassport,EnvironmentalProperty
 DimensionlessQuantity,Class,http://www.ontology-of-units-of-measure.org/resource/om-2/Quantity,IS-A,,,,A quantity that cannot be associated with a unit of measure.,http://www.theworldavatar.com/kg/ontomatpassport,DimensionlessQuantity
 http://www.ontology-of-units-of-measure.org/resource/om-2/SpecificHeatCapacity,Class,,,,,,The quantity of heat needed to increase the temperature of a material's unit mass by one unit.,http://www.ontology-of-units-of-measure.org/resource/om-2,SpecificHeatCapacity
-ChemicalComposition,Class,,,,,,"Chemical composition refers to the arrangement, type, and ratio of atoms in molecules of chemical substances [Chemistry LibreTexts].",http://www.theworldavatar.com/kg/ontomatpassport,ChemicalComposition
+ChemicalComposition,Class,,,,,,"Chemical composition refersÂ to the arrangement, type, and ratio of atoms in molecules of chemical substances [Chemistry LibreTexts].",http://www.theworldavatar.com/kg/ontomatpassport,ChemicalComposition
 hasCountry,Object Property,,,Manufacturer UNION Supplier,https://dbpedia.org/ontology/Country,,An object property referring to the country where a manufacturing company is located.,http://www.theworldavatar.com/kg/ontomatpassport,hasCountry
 hasRegistrationCountry,Object Property,hasCountry,IS-A,Manufacturer UNION Supplier,https://dbpedia.org/ontology/Country,,"An object property referring to the country where a manufacturer, supplier, company or industry is registered.",http://www.theworldavatar.com/kg/ontomatpassport,hasRegistrationCountry
 describes,Object Property,,,Material Passport,http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94 UNION Component UNION Product,,An object property indicating what is described by a material passport.,http://www.theworldavatar.com/kg/ontomatpassport,describes

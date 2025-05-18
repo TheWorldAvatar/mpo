@@ -12,7 +12,7 @@
         <dc:date>08 May 2025</dc:date>
         <gitCommitHash>c0599beca8df55873a1ab061dee64e52c510c6a0</gitCommitHash>
         <rdfs:comment>The Material Passport Ontology (MPO) is an ontology developed for representing material passports of products and components. It is also known as OntoMatPassport.</rdfs:comment>
-        <owl:versionInfo>1</owl:versionInfo>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
     </owl:Ontology>
     
 
